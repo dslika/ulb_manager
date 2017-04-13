@@ -1,6 +1,5 @@
 .DS_Store
 *.swp
-*.pyc
 *.pyo
 reports/
 .tmp
@@ -12,3 +11,4 @@ npm-debug.log
 
 ### Pycharm ###
 .idea/
+__pycache__/
