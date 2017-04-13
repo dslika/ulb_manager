@@ -1,0 +1,14 @@
+.DS_Store
+*.swp
+*.pyc
+*.pyo
+reports/
+.tmp
+.sass-cache
+
+### node ###
+node_modules
+npm-debug.log
+
+### Pycharm ###
+.idea/
