@@ -5,8 +5,8 @@
             class="mb-2"
             title="Doc page"
             sub-title="sample page"
-            show-footer
-    >
+            show-footer>
+
       <small slot="footer" class="text-muted">
         Doc
       </small>
