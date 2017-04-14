@@ -23,8 +23,8 @@
 
       </b-collapse>
     </b-navbar>
+
     <div class="container">
-      <div><i class="fa fa-address-book" aria-hidden="true"></i></div>
       <main-page></main-page>
     </div>
   </div>

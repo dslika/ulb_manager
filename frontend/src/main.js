@@ -10,9 +10,13 @@ import 'bootstrap-vue/dist/bootstrap-vue.css'
 import 'vue-awesome/icons'
 import Icon from 'vue-awesome/components/Icon.vue'
 
+import axios from 'axios'
+import VueAxios from 'vue-axios'
+
 Vue.config.productionTip = false
 
 Vue.use(BootstrapVue)
+Vue.use(VueAxios, axios)
 Vue.component('icon', Icon)
 
 /* eslint-disable no-new */

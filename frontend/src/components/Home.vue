@@ -4,10 +4,11 @@
     <b-card header="Header"
             class="mb-2"
             title="Home page"
-            sub-title="sample page"
+            sub-title="sample"
             show-footer>
 
-      <icon name="refresh" spin></icon> Text
+      <icon name="refresh" spin></icon>
+      Text
 
       <small slot="footer" class="text-muted">
         Home
@@ -15,7 +16,9 @@
 
     </b-card>
   </div>
+
 </template>
+
 <script>
   export default {
     name: 'main'

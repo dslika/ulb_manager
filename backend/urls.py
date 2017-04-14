@@ -8,5 +8,5 @@ router.register(r'stock', StockViewSet)
 
 urlpatterns = [
     # qiita/api/stock/
-    url(r'api/', include(router.urls)),
+    url(r'api/', include(router.urls, namespace='rest_framework')),
 ]
