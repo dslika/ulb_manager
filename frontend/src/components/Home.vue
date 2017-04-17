@@ -3,6 +3,7 @@
     <!-- Standard -->
     <b-card header="Header"
             class="mb-2"
+            name="Home"
             title="Home page"
             sub-title="sample"
             show-footer>
